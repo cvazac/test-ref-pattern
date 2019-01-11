@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react'
-import Parent from './PatternComponent'
+import PatternComponent from './PatternComponent'
 
 class GrandparentComponent extends PureComponent {
   state = {
@@ -37,7 +37,7 @@ class GrandparentComponent extends PureComponent {
       style.color = 'red'
     return (
         <div>
-          <Parent counter={counter}/>
+          <PatternComponent counter={counter}/>
           <code style={style}>{message}</code>
         </div>
     )
