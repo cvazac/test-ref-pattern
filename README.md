@@ -4,6 +4,7 @@
 ```html
 git clone git@github.com:cvazac/test-ref-pattern.git
 cd test-ref-pattern
+npm install
 npm start
 ```
 
