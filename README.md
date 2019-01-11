@@ -8,6 +8,6 @@ npm start
 ```
 
 ## Testing patterns
-Manually edit the component found [here]().
+Manually edit the component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js).
 
 Explore to [http://localhost:3000/](http://localhost:3000/).
