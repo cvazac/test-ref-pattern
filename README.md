@@ -9,6 +9,17 @@ npm start
 ```
 
 ## Testing patterns
-Manually edit the component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js).
+Manually edit the component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js) and explore to [http://localhost:3000/](http://localhost:3000/).
 
-Explore to [http://localhost:3000/](http://localhost:3000/).
+
+Make sure you return `<ChildComponent/>` from your `render()` method. 
+
+You will see that this pattern forces a needless re-render of `ChildComponent`. 
+```html
+<ChildComponent prop={{}} />
+```
+
+There is no needless re-render with this pattern:
+```html
+<ChildComponent prop={static_empty_object} />
+```
