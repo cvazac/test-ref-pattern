@@ -1,5 +1,7 @@
 # test-ref-pattern
 
+Try it out on [codepan](https://codepan.net/gist/477675309cafd4c4517144e1432c6e8c).
+
 ## Getting Started
 ```html
 git clone git@github.com:cvazac/test-ref-pattern.git
