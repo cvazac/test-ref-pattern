@@ -11,8 +11,7 @@ npm start
 ```
 
 ## Testing patterns
-Manually edit the component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js) and explore to [http://localhost:3000/](http://localhost:3000/).
-
+Manually edit the "PatternComponent" component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js) and explore to [http://localhost:3000/](http://localhost:3000/).
 
 Make sure you return `<ChildComponent/>` from your `render()` method. 
 
