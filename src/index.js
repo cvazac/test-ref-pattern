@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import GrandparentComponent from './GrandparentComponent';
+import React from "react";
+import "./index.css";
 
-ReactDOM.render(<GrandparentComponent />, document.getElementById('root'));
+import { createRoot } from "react-dom/client";
+const root = createRoot(document.getElementById("root"));
+root.render(<GrandparentComponent />);

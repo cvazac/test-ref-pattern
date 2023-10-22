@@ -3,7 +3,7 @@ import ChildComponent from './ChildComponent';
 
 const static_empty_object = {}
 class PatternComponent extends PureComponent {
-  componentWillUpdate() {
+  UNSAFE_componentWillUpdate() {
     window._dur = -1 * performance.now()
   }
   componentDidUpdate() {
