@@ -1,8 +1,6 @@
 # test-ref-pattern
 
-Try it out on [codepan](https://codepan.net/gist/477675309cafd4c4517144e1432c6e8c).
-
-## Getting Started
+## Local development
 ```html
 git clone git@github.com:cvazac/test-ref-pattern.git
 cd test-ref-pattern
@@ -10,17 +8,26 @@ npm install
 npm start
 ```
 
+
+## Hosted development
+Explore to the [codesandbox.io](https://codesandbox.io/p/github/cvazac/test-ref-pattern/master?import=true&layout=%257B%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522rootPanelGroup%2522%253A%257B%2522direction%2522%253A%2522horizontal%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522id%2522%253A%2522ROOT_LAYOUT%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522UNKNOWN%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522clo06dz6900073b6g1i01yv97%2522%252C%2522sizes%2522%253A%255B70%252C30%255D%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522EDITOR%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522EDITOR%2522%252C%2522id%2522%253A%2522clo06dz6900033b6g14oc46xv%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522direction%2522%253A%2522horizontal%2522%252C%2522id%2522%253A%2522SHELLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522SHELLS%2522%252C%2522id%2522%253A%2522clo06dz6900053b6gy0zg5nvt%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%257D%252C%257B%2522type%2522%253A%2522PANEL_GROUP%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522direction%2522%253A%2522vertical%2522%252C%2522id%2522%253A%2522DEVTOOLS%2522%252C%2522panels%2522%253A%255B%257B%2522type%2522%253A%2522PANEL%2522%252C%2522contentType%2522%253A%2522DEVTOOLS%2522%252C%2522id%2522%253A%2522clo06dz6900063b6gkvzgn5m5%2522%257D%255D%252C%2522sizes%2522%253A%255B100%255D%257D%255D%252C%2522sizes%2522%253A%255B60%252C40%255D%257D%252C%2522tabbedPanels%2522%253A%257B%2522clo06dz6900033b6g14oc46xv%2522%253A%257B%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clo06dz6800023b6g3ur2v4as%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522FILE%2522%252C%2522filepath%2522%253A%2522%252FREADME.md%2522%257D%255D%252C%2522id%2522%253A%2522clo06dz6900033b6g14oc46xv%2522%252C%2522activeTabId%2522%253A%2522clo06dz6800023b6g3ur2v4as%2522%257D%252C%2522clo06dz6900063b6gkvzgn5m5%2522%253A%257B%2522id%2522%253A%2522clo06dz6900063b6gkvzgn5m5%2522%252C%2522activeTabId%2522%253A%2522clo06dz94000p3b6gipk1yvht%2522%252C%2522tabs%2522%253A%255B%257B%2522type%2522%253A%2522ENV_SETUP%2522%252C%2522id%2522%253A%2522clo06dz94000p3b6gipk1yvht%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%257D%252C%2522clo06dz6900053b6gy0zg5nvt%2522%253A%257B%2522id%2522%253A%2522clo06dz6900053b6gy0zg5nvt%2522%252C%2522activeTabId%2522%253A%2522clo06dz6900043b6grwke388b%2522%252C%2522tabs%2522%253A%255B%257B%2522id%2522%253A%2522clo06dz6900043b6grwke388b%2522%252C%2522mode%2522%253A%2522permanent%2522%252C%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clo06dzbw000heggd9xmn1a08%2522%257D%252C%257B%2522type%2522%253A%2522TASK_LOG%2522%252C%2522taskId%2522%253A%2522start%2522%252C%2522id%2522%253A%2522clo06e0rw008w3b6glja27tqx%2522%252C%2522mode%2522%253A%2522permanent%2522%257D%255D%257D%257D%252C%2522showDevtools%2522%253Atrue%252C%2522showShells%2522%253Atrue%252C%2522showSidebar%2522%253Atrue%252C%2522sidebarPanelSize%2522%253A15%257D) workspace.
+
+```
+npm install
+npm start
+```
+
 ## Testing patterns
-Manually edit the "PatternComponent" component found [here](https://github.com/cvazac/test-ref-pattern/blob/master/src/PatternComponent.js) and explore to [http://localhost:3000/](http://localhost:3000/).
+Manually edit `PatternComponent` component and explore to [http://localhost:3000/](http://localhost:3000/).
 
-Make sure you return `<ChildComponent/>` from your `render()` method. 
+The `render()` method of `PatternComponent` **must** include `<ChildComponent/>` in its return value.
 
-You will see that this pattern forces a needless re-render of `ChildComponent`. 
+You will see that the following snippet forces a needless re-render of `ChildComponent`. 
 ```html
 <ChildComponent prop={{}} />
 ```
 
-There is no needless re-render with this pattern:
+In the following snippet, we refactor to prevent the needless re-render:
 ```html
 <ChildComponent prop={static_empty_object} />
 ```
