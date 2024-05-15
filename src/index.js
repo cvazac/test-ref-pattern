@@ -1,4 +1,5 @@
 import React from "react";
+import GrandparentComponent from './GrandparentComponent'
 import "./index.css";
 
 import { createRoot } from "react-dom/client";
